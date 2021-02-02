@@ -1,0 +1,10 @@
+import java.lang.Thread.sleep
+
+    fun main() {
+        val progression: IntProgression = 5..100 step  5
+        for (i in progression) {
+            println("Hacking Nasa... $i%")
+            sleep(2000);
+        }
+        println( "\u001B[31m" + "Access Granted" + "\u001B[31m")
+    }
